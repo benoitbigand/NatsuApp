@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "LoveNature";
+    src: url("../fonts/Love Nature.otf");
+}
+
+body{
+    background-color: #38E83E;
+    font-family: "LoveNature";
+    font-size: 300%;
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 20%;
+    max-height: 20%;
+    background-color: blue;
+}
+
+.flag{
+    border: 5px solid black;
+    max-height: 60px;
+    max-width: 60px;
+    align-self: stretch;
+}
+
+#natsu{
+    flex-basis: 10%;
+    flex-grow: 2;
+}
+
+#s_titre{
+    flex-grow: 100;
+    flex-basis: 50%;
+    align-self: center;
+    font-size: 7rem;
+    margin-left: 10%;
+}
+
+#carte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+}
+
+#directcarte{
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin: auto;
+}
