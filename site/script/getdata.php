@@ -2,6 +2,20 @@
 $getfile=file_get_contents("./data/exposants.json");
 $exposants=json_decode($getfile);
 $exposants= json_decode(json_encode($exposants), true);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #var_dump($exposants); #Débug
 
 #for($i = 0;$i < count($exposants);$i++){

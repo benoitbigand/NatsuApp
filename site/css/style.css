@@ -4,11 +4,16 @@
 }
 
 body{
-    background-color: #38E83E;
+    background-image: url("https://i.pinimg.com/originals/9d/81/5b/9d815b67d45c5603f90a85f2d3168d4e.jpg");
     font-family: "LoveNature";
     font-size: 300%;
     height: 100%;
     margin: 0;
+}
+
+span{
+    user-select: none;
+    -moz-user-select: none;
 }
 
 header{
@@ -17,7 +22,8 @@ header{
     align-content: center;
     height: 20%;
     max-height: 20%;
-    background-color: blue;
+    background-color: #c63636;
+    color: white;
 }
 
 .flag{
@@ -44,11 +50,135 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 70%;
+    max-height: 80%;
 }
 
 #directcarte{
     flex-basis: 50%;
     flex-grow: 1;
     margin: auto;
+    height: 80vh;
+    width: 70vw;
 }
+
+#navigation{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5%;
+    min-width: 20px;
+    position: relative;
+}
+
+#liste_expo{
+    display: none;
+    flex-direction: column;
+    min-width: 73%;
+}
+
+#finallytheactuallist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-toggle{
+    display: flex;
+    border: 5px solid white;
+    border-radius: 10%;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    font-family: "Arial";
+    justify-content: flex-end;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    bottom: 1.4%;
+    left: 0;
+    position: absolute;
+}
+
+.btn-navig{
+    border: 5px solid white;
+    border-radius: 10%;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn-hide{
+    display: none;
+}
+
+#btn_carte{
+    background-color: gray;
+}
+
+#btn_liste_expo{
+    background-color: blue;
+}
+
+#btn_liste_actus{
+    background-color: red;
+}
+
+#btn_search{
+    background-color: orange;
+}
+
+#btn_list{
+    background-color: darkgoldenrod;
+}
+
+#btn_retour{
+    background-color: black;
+}
+
+#btn_all{
+    background-color: red;
+}
+
+#btn_personne{
+    background-color: orangered;
+}
+
+#btn_anims{
+    background-color: darkorange;
+}
+
+#btn_shops{
+    background-color: coral;
+}
+
+#tri{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.temp_expo{
+    position: relative;
+    text-align: center;
+}
+
+.temp_expo_img{
+    width: 120px;
+    height: 100px;
+    
+}
+.temp_expo_txt{
+    font-family: "Arial";
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+}
+

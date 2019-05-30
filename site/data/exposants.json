@@ -3,230 +3,296 @@
         "nom": "Amixem",
         "description": "Youtubeur",
         "service": "Dédicaces",
-        "stand": "I01"
+        "stand": "I01",
+        "image": "https://lyricstranslate.com/files/styles/large/public/17077265_1798835723769326_7212932987019591680_n_0.jpg",
+        "type": "Personne"
     }
 ,
     {
         "nom": "Joueur du Grenier",
         "description": "Youtubeur",
         "service": "Dédicaces",
-        "stand": "I02"
+        "stand": "I02",
+        "image": "https://risibank.fr/cache/stickers/d438/43816-full.png",
+        "type": "Personne"
     }
 ,
     {
         "nom": "Cyril",
         "description": "Youtubeur",
         "service": "Dédicaces",
-        "stand": "I03"
+        "stand": "I03",
+        "image": "https://pbs.twimg.com/media/CbWnnjBW4AEi_kV.jpg",
+        "type": "Personne"
     }
 ,
     {
         "nom": "Pierre Croce",
         "description": "Youtubeur",
         "service": "Dédicaces",
-        "stand": "I04"
+        "stand": "I04",
+        "image": "https://static1.purebreak.com/articles/0/10/51/20/@/462915-pierre-croce-a-donne-une-interview-exclu-diapo-1.jpg",
+        "type": "Personne"
     }
 ,
     {
         "nom": "Furious Jumper",
         "description": "Youtubeur",
         "service": "Dédicaces",
-        "stand": "I05"
+        "stand": "I05",
+        "image": "https://pbs.twimg.com/profile_images/997871875526144002/UCTDNI0B_400x400.jpg",
+        "type": "Personne"
     }
 ,
     {
         "nom": "Louis-san",
         "description": "Youtubeur",
         "service": "Dédicaces",
-        "stand": "I06"
+        "stand": "I06",
+        "image": "https://media.senscritique.com/media/000017187195/source_big/Louis_San.jpg",
+        "type": "Personne"
     }
 ,
     {
         "nom": "Laurent Caccia",
         "description": "Youtubeur",
         "service": "Dédicaces",
-        "stand": "I07"
+        "stand": "I07",
+        "image": "https://pbs.twimg.com/profile_images/1019342387846569984/clWkrWFf_400x400.jpg",
+        "type": "Personne"
     }
 ,
     {
         "nom": "Locklear",
         "description": "Youtubeur",
         "service": "Dédicaces",
-        "stand": "I08"
+        "stand": "I08",
+        "image": "https://proconfig.fr/wp-content/uploads/2018/12/Locklear.jpg",
+        "type": "Personne"
     }
 ,
     {
         "nom": "L’univers Otaku",
         "description": "Stand initiation aux cultures asiatiques",
         "service": "Vente de goodies",
-        "stand": "G01"
+        "stand": "G01",
+        "image": "https://pbs.twimg.com/profile_images/1131105545287557122/bxijQSXa_400x400.jpg",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Mangatori",
         "description": "Exposition de mangas, découverte et achats possibles",
         "service": "Vente de goodies",
-        "stand": "G02"
+        "stand": "G02",
+        "image": "http://murata.zerocool-x.com/wp-content/gallery/gallery/magatori.jpg",
+        "type": "Animation"
     }
 ,
     {
         "nom": "AnimeLand",
         "description": "Large choix d'anime en DvD et abonnement",
         "service": "Vente de goodies",
-        "stand": "G03"
+        "stand": "G03",
+        "image": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/18/Logo_Animeland.svg/1280px-Logo_Animeland.svg.png",
+        "type": "Boutique"
     }
 ,
     {
         "nom": "Dragibuz",
         "description": "Vente de figurines & goodies diverses",
         "service": "Vente de goodies",
-        "stand": "G04"
+        "stand": "G04",
+        "image": "https://i.etsystatic.com/isla/310c07/15991345/isla_180x180.15991345_klx3orx9.jpg",
+        "type": "Boutique"
     }
 ,
     {
         "nom": "Hell’o Kawaii",
         "description": "Vente de costumes traditionels",
         "service": "Vente de goodies",
-        "stand": "G05"
+        "stand": "G05",
+        "image": "https://i.etsystatic.com/isla/642170/23219249/isla_500x500.23219249_9kqdmuj7.jpg",
+        "type": "Boutique"
     }
 ,
     {
         "nom": "Japan Geek",
         "description": "Décorations & accessoires geek",
         "service": "Vente de goodies",
-        "stand": "G06"
+        "stand": "G06",
+        "image": "https://cdn.simplesite.com/i/3b/83/282037933253559099/i282037939703632743._szw1280h1280_.jpg",
+        "type": "Boutique"
     }
 ,
     {
         "nom": "Mariko",
         "description": "Illustrations, portraits et tableaux",
         "service": "Vente de goodies",
-        "stand": "G07"
+        "stand": "G07",
+        "image": "https://teamyello.files.wordpress.com/2013/09/ra_mariko_mori_photo_christophe_kutner.jpg",
+        "type": "Boutique"
     }
 ,
     {
         "nom": "Pokeworld",
-        "description": "Accessoires et Cartes pokémon",
+        "description": "Accessoires et Cartes Pokémon",
         "service": "Vente de goodies",
-        "stand": "G08"
+        "stand": "G08",
+        "image": "http://pokemongo.caranille.com/img/logo.png",
+        "type": "Boutique"
     }
 ,
     {
         "nom": "CosplayLeague",
         "description": "Liberté de créer ce qu'il vous plait, accessoires pour concours",
         "service": "Vente de goodies",
-        "stand": "G09"
+        "stand": "G09",
+        "image": "https://stockagehelloassoprod.blob.core.windows.net/images/logos/cosplay%20league-62e16cc97f304e6db29272de68197668.png",
+        "type": "Boutique"
     }
 ,
     {
         "nom": "Retrotest",
         "description": "Venez redécouvrir les jeux qui ont marqués leur génération",
         "service": "Vente de goodies",
-        "stand": "G10"
+        "stand": "G10",
+        "image": "https://www.gamecash.fr/thumbnail-199-149/famille-retro-e86539.jpg",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Micromania",
         "description": "Retrouvez les dernières sorties jeux vidéo et occasions",
         "service": "Éditeurs",
-        "stand": "E01"
+        "stand": "E01",
+        "image": "https://www.valdoly.fr/files/2018/06/micromanialogo.jpg",
+        "type": "Boutique"
     }
 ,
     {
-        "nom": "Nitendo",
-        "description": "Découvertes des jeux Nitendo",
+        "nom": "Nintendo",
+        "description": "Découvertes des jeux Nintendo",
         "service": "Éditeurs",
-        "stand": "E02"
+        "stand": "E02",
+        "image": "http://tous-logos.com/wp-content/uploads/2018/04/Logo-Nintendo.png",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Anime Digital Network",
         "description": "Retrouvez les récentes sorties anime",
         "service": "Éditeurs d'anime",
-        "stand": "E03"
+        "stand": "E03",
+        "image": "https://upload.wikimedia.org/wikipedia/fr/9/9a/ADN_Logo_%282016%29.png",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Glénat",
         "description": "1° éditeur de mangas en France",
         "service": "Éditeurs de mangas",
-        "stand": "E04"
+        "stand": "E04",
+        "image": "http://www.48hbd.com/wp-content/uploads/2017/01/logo-glenat-2.jpg",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Ubisoft",
-        "description": "Présentation des nouvelles sorties, sekiro",
+        "description": "Présentation des nouvelles sorties, Sekiro",
         "service": "Éditeurs",
-        "stand": "E05"
+        "stand": "E05",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ubisoft_logo.svg/langfr-280px-Ubisoft_logo.svg.png",
+        "type": "Animation"
     }
 ,
     {
         "nom": "EA",
         "description": "Sortie du jeu One Piece World Seeker",
         "service": "Éditeurs",
-        "stand": "E06"
+        "stand": "E06",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Electronic-Arts-Logo.svg/1200px-Electronic-Arts-Logo.svg.png",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Kazé Manga",
         "description": "Large éventail de mangas disponible en VO",
         "service": "Éditeurs de mangas",
-        "stand": "E07"
+        "stand": "E07",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Kaze.svg/1200px-Kaze.svg.png",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Crunchyroll",
-        "description": "Abonnement réduits aux anime licensié",
+        "description": "Abonnement réduits aux anime licensiés",
         "service": "Éditeurs d'animes",
-        "stand": "E08"
+        "stand": "E08",
+        "image": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/02/9d/30/029d30d5-6187-216b-27b9-7b3cb54f5dbf/source/512x512bb.jpg",
+        "type": "Animation"
     }
 ,
     {
         "nom": "A-1 Pictures",
         "description": "Atelier découverte, création d'animations",
         "service": "Studio d'animation",
-        "stand": "E09"
+        "stand": "E09",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/A-1_Pictures_Logo.svg/1200px-A-1_Pictures_Logo.svg.png",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Microsoft",
         "description": "Fournisseur officiel de la NatsuCon et gestion du service réseau",
         "service": "Éditeurs",
-        "stand": "E10"
+        "stand": "E10",
+        "image": "https://img2.freepng.fr/20180821/ypb/kisspng-logo-microsoft-corporation-vector-graphics-brand-f-microsoft-centered-logo-svg-vector-amp-png-trans-5b7cceb2e80dc3.3255694415349060349505.jpg",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Studio Ghibli",
         "description": "Rdécouvrez les oeuvres fantastiques de Miyazaki",
         "service": "Studio d'animation",
-        "stand": "E11"
+        "stand": "E11",
+        "image": "http://66.media.tumblr.com/5c02b7c854e6cec6e73c8cea76fdd8c8/tumblr_mojtrmYsDp1rwhtbro1_250.gif",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Okami no Enkai",
         "description": "Des Yakitori aux Tokoyami, les dégustations vous feront fondre",
         "service": "Restauration",
-        "stand": "N01"
+        "stand": "N01",
+        "image": "https://ih0.redbubble.net/image.52041676.7393/flat,550x550,075,f.u2.jpg",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Manga Cafe",
         "description": "Profitez d'oeuvres réalisé par les plus prestigieux magaka en dégustant un natto de très bonne qualité",
         "service": "Restauration",
-        "stand": "N02"
+        "stand": "N02",
+        "image": "https://www.manga-news.com/public/images/librairies/librairie_manga_cafev2_paris_img1.jpg",
+        "type": "Animation"
     }
 ,
     {
         "nom": "Tea Time",
         "description": "Petite pause thé, dégustation de patisseries typiques",
         "service": "Restauration",
-        "stand": "N03"
+        "stand": "N03",
+        "image": "http://www.teatime-store.fr/wp-content/uploads/2014/08/logo-Teatime-OK.jpg",
+        "type": "Animation"
     }
 ,
     {
         "nom": "SushiRamen",
         "description": "Spécialités ramen, avec toutes d'accompagnements",
         "service": "Restauration",
-        "stand": "N04"
+        "stand": "N04",
+        "image": "https://pbs.twimg.com/profile_images/3684712661/78aca994316d362a3fe1f9beacb1d29e_400x400.jpeg",
+        "type": "Animation"
     }
 ]
