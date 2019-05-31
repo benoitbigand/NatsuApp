@@ -1,0 +1,47 @@
+#carte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 80%;
+}
+
+#directcarte{
+    display: none;
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin: auto;
+    height: 80vh;
+    width: 70vw;
+}
+
+#navigation{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5%;
+    min-width: 20px;
+    position: relative;
+}
+
+#liste_expo{
+    display: flex;
+    flex-direction: column;
+    min-width: 73%;
+}
+
+
+
+#finallytheactuallist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.temp_expo{
+    margin-right: 1%;
+}
