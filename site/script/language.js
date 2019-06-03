@@ -10,6 +10,9 @@ function francais(){
     document.getElementById('txt_all').innerHTML="Tous";
     document.getElementById('txt_anims').innerHTML="Animations";
     document.getElementById('txt_shops').innerHTML="Boutiques";
+    document.getElementById('txt_shops').innerHTML="Shops";
+    document.getElementById('champ').placeholder="Nom de l'exposant ...";
+    document.getElementById('onygo').value="Rechercher";
 }
 
 function anglais(){
@@ -24,6 +27,8 @@ function anglais(){
     document.getElementById('txt_all').innerHTML="All";
     document.getElementById('txt_anims').innerHTML="Animations";
     document.getElementById('txt_shops').innerHTML="Shops";
+    document.getElementById('champ').placeholder="Exhibitor's name ...";
+    document.getElementById('onygo').value="Search";
 }
 
 function allemand(){

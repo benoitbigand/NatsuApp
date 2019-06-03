@@ -51,10 +51,35 @@ function displayallshops($liste){
     }
 }
 
+function displayactus($liste){
+    for($i = 0;$i < count($liste);$i++){
+        $curseur = $liste[$i];
+        echo "<div class='temp_actu'>
+        <img class='temp_actu_img' src='$curseur[image]'>
 
+        <span class='temp_actu_title temp_actu_txt'>$curseur[titre] - </span>
+        
+        <span class='temp_actu_stand temp_actu_txt'>$curseur[stand]</span>
+        <br>
+        <span class='temp_actu_desc temp_actu_txt'>$curseur[description]</span>
+        </div>";
+    }
+}
 
+function displaysearched($liste,$keyword){
+    for($i = 0;$i < count($liste);$i++){
+        $curseur = $liste[$i];
+        if((strpos($curseur['nom'], $keyword) !== false)){
+            echo "<div class='temp_expo'>
+            <img class='temp_expo_img' src='$curseur[image]'>
 
+            <span class='temp_expo_txt'>$curseur[nom]</span>
+            </div>";
+        }
+    }
+    
 
+}
 
 
 

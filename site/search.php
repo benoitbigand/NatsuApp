@@ -1,8 +1,6 @@
 <?php
 include("./script/getdata.php");
 include("./script/display_list.php");
-
-
 ?>
 
 
@@ -11,6 +9,7 @@ include("./script/display_list.php");
     <title>Bienvenue à NatsuCon </title>
     <link href='css/normalize.css' rel='stylesheet'>
     <link href='css/style.css' rel='stylesheet'>
+    <link href='css/expos.css' rel='stylesheet'>
     <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'> 
 </head>
 
@@ -31,7 +30,7 @@ include("./script/display_list.php");
     
     
     
-    <div id='btn_toggle' class='btn-toggle' onclick='open_menu();'>
+    <div id='btn_toggle' class='btn-toggle' onclick='open_menu();hotfix_toggle();'>
                 =>
             </div>
     <div id='carte'>
@@ -63,45 +62,32 @@ include("./script/display_list.php");
         </div>
         <img src='ressources/faussecarte.png' id='directcarte' usemap='#cartemap'>
         
+        
+        
         <div id='liste_expo'>
-            <div id='btn_search' class='btn-navig'>
-                <span class='traduire' id='txt_search'></span>
-            </div>
             
-            <div id='btn_list' class='btn-navig' onclick="hide_btn_list(); expo_choose_list();">
-                <span class='traduire' id='txt_list'></span>
-            </div>
+            
+            
             
             <div id="tri">
-                <div id='btn_all' class='btn-navig btn-hide' onclick='onvatoutmontrer();'>
-                <span class='traduire' id='txt_all'></span>
-                </div>
                 
-                <div id='btn_personne' class='btn-navig btn-hide' onclick=''>
-                <span class='traduire' id='txt_personne'></span>
-                </div>
-                
-                <div id='btn_anims' class='btn-navig btn-hide' onclick=''>
-                <span class='traduire' id='txt_anims'></span>
-                </div>
-                
-                <div id='btn_shops' class='btn-navig btn-hide' onclick=''>
-                <span class='traduire' id='txt_shops'></span>
+                <div id="finallytheactuallist">
+                    <?php
+                    $recherche = $_GET['iwanthim'];
+                    displaysearched($exposants,$recherche);
+                    ?>
                 </div>
                 
             </div>
         </div>
     </div>
     
-     <map name='cartemap'>
-        <area shape='rect' coords='26,286,235,376' onclick='popup("1")'>
-    </map>
-    
     
     
      <script src='script/language.js'></script>
      <script src='script/navigation.js'></script>
     <script src='script/display_expos.js'></script>
+    <script src='script/hotfixes.js'></script>
     
 </body>
 

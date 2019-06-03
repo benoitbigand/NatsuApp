@@ -1,3 +1,5 @@
+var searchfield = 0;
+
 function open_menu(){
     document.getElementById('navigation').style.minWidth = "17%";
     document.getElementById('navigation').style.marginRight = "5%";
@@ -17,8 +19,6 @@ function close_menu(){
     document.getElementById('btn_carte').style.display = "none";
     document.getElementById('btn_liste_expo').style.display = "none";
     document.getElementById('btn_liste_actus').style.display = "none";
-    document.getElementById('btn_search').style.display = "none";
-    document.getElementById('btn_list').style.display = "none";
     document.getElementById('btn_retour').style.display = "none";
 }
 
@@ -41,3 +41,12 @@ function expo_choose_list(){
     document.getElementById('btn_shops').style.display = "flex";
 }
 
+function managesearchfield(){
+    if (searchfield == 0){
+        searchfield = 1;
+        document.getElementById('cont_search').style.display = "flex";
+    } else {
+        searchfield = 0;
+        document.getElementById('cont_search').style.display = "none";
+    }
+}

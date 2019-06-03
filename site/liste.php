@@ -35,15 +35,26 @@ include("./script/display_list.php");
             </div>
     <div id='carte'>
         <div id='navigation'>
+            
+            <a href="index.php">
             <div id='btn_carte' class='btn-navig btn-hide'>
                 <span class='traduire' id='txt_carte'></span>
             </div>
+            </a>
+            
+            <a href="expos.php">
             <div id='btn_liste_expo' class='btn-navig btn-hide' onclick='disp_exposants();'>
                 <span class='traduire' id='txt_liste_expo'></span>
             </div>
+            </a>
+            
+            <a href="actus.php">
             <div id='btn_liste_actus' class='btn-navig btn-hide'>
                 <span class='traduire' id='txt_liste_actus'></span>
             </div>
+            </a>
+            
+            
             <div id='btn_retour' class='btn-navig btn-hide' onclick='close_menu();'>
                 <span class='traduire' id='txt_retour'></span>
             </div>

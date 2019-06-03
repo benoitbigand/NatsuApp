@@ -45,3 +45,14 @@ a{
 .temp_expo{
     margin-right: 1%;
 }
+
+#cont_row{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial';
+    font-size: 1rem;
+}
+
+#cont_search{
+    display: none;
+}

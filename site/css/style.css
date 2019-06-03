@@ -5,6 +5,7 @@
 
 body{
     background-image: url("https://i.pinimg.com/originals/9d/81/5b/9d815b67d45c5603f90a85f2d3168d4e.jpg");
+    background-size: cover;
     font-family: "LoveNature";
     font-size: 300%;
     height: 100%;
@@ -34,8 +35,8 @@ header{
 }
 
 #natsu{
-    flex-basis: 10%;
-    flex-grow: 2;
+    width: 120px;
+    height: 120px;
 }
 
 #s_titre{
@@ -184,3 +185,6 @@ header{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
